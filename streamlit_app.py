@@ -1,4 +1,5 @@
 import streamlit as st
+import pathlib
 
 # Set page configuration
 st.set_page_config(
@@ -453,3 +454,5 @@ st.components.v1.html(html_content, height=800, scrolling=False)
 
 # Add footer with instructions
 st.markdown("---")
+
+st.image(pathlib.Path("p_tunning.png"))
